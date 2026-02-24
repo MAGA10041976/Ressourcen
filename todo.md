@@ -1,0 +1,80 @@
+# Todo: Editable Project Table
+
+- [x] Add web-db-user feature for backend + database
+- [x] Create database schema for projects table
+- [x] Seed database with existing project data
+- [x] Create API endpoints (GET all, PUT update, POST create, DELETE)
+- [x] Update ProjectTable component with inline editing
+- [x] Add save/cancel functionality per row
+- [x] Add new project creation form
+- [x] Add delete project functionality
+- [x] Add toast notifications for save/error states
+- [x] Update PDF export to use API data instead of static data
+- [x] Test all CRUD operations
+- [x] Sektion "Vergleich" aus Home.tsx entfernen
+- [x] Sektion "Empfehlung" aus Home.tsx entfernen
+- [x] Navigation-Links "Vergleich" und "Empfehlung" aus Navbar entfernen
+- [x] VorschlagComparison und Empfehlung Komponenten-Dateien löschen
+- [x] Vorschlag-Daten aus data.ts entfernen
+- [x] PDF-Export: Vergleich und Empfehlung Sektionen entfernen
+- [x] Footer-Links aktualisieren
+- [x] ZETA Corporate Design analysieren (Farben, Typografie, Stil)
+- [x] CSS-Variablen und Farbpalette auf ZETA-Farben umstellen
+- [x] Typografie an ZETA-Stil anpassen
+- [x] Navbar, Hero, Karten und Buttons im ZETA-Design gestalten
+- [x] Footer und alle Sektionen an ZETA-Design anpassen
+- [x] PDF-Export Farben an ZETA-Design anpassen
+- [x] Ressourcenauslastung: Alle Teammitglieder anzeigen statt nur Top 10
+- [x] Balkendiagramm-Höhe dynamisch an Anzahl der Mitarbeiter anpassen
+- [x] Rollenfilter in Ressourcenauslastung: Alle, Mentor/Support, KTM Lead, Mitarbeiter, QAA
+- [x] getStats-Funktion um rollenbasierte Ressourcenberechnung erweitern
+- [x] ResourceChart-Komponente mit Filter-Buttons und dynamischer Darstellung aktualisieren
+- [x] Offizielles ZETA-Logo auf CDN hochladen
+- [x] ZETA-Logo im Header (Navbar) anstelle des SVG-Dreiecks einbinden
+- [x] Logo auch im Footer aktualisieren
+- [x] Logo als S3-Storage-Asset hochladen statt temporäre CDN-URL
+- [x] Navbar und Footer Logo-URLs auf permanente S3-URL aktualisieren
+- [x] Backend: Schreiboperationen (create, update, delete) mit protectedProcedure absichern
+- [x] Backend: Leseoperationen (list) öffentlich belassen
+- [x] Frontend: Login-Button in Navbar integrieren
+- [x] Frontend: Logout-Funktion mit Benutzeranzeige
+- [x] Frontend: Bearbeitungs-/Lösch-/Erstellen-Buttons nur für eingeloggte Nutzer anzeigen
+- [x] Tests für geschützte Endpunkte schreiben
+- [x] Backend: Admin-Router mit User-Management-Endpunkten (list, updateRole, delete)
+- [x] Backend: adminProcedure für Admin-only-Zugriff erstellen
+- [x] Backend: CSV-Export-Endpunkt für Projektdaten
+- [x] Backend: CSV-Import-Endpunkt für Projektdaten
+- [x] Frontend: Admin-Dashboard-Seite mit Benutzerliste und Rollenverwaltung
+- [x] Frontend: Admin-Navigation und Routing einrichten
+- [x] Frontend: CSV-Export-Button in der Projekttabelle
+- [x] Frontend: CSV-Import-Dialog mit Datei-Upload und Vorschau
+- [x] Tests für Admin-Endpunkte und CSV-Funktionen schreiben
+- [x] DB-Schema: User-Status-Feld (pending/approved/rejected) zur users-Tabelle hinzufügen
+- [x] DB-Schema: Activity-Log-Tabelle erstellen (userId, action, entity, entityId, details, timestamp)
+- [x] DB-Schema: Gantt-Felder zu projects-Tabelle hinzufügen (startDate, endDate, dependencies)
+- [x] Backend: Zugangssteuerung - nur approved User dürfen auf Hauptseite zugreifen
+- [x] Backend: Neue User bekommen automatisch Status "pending"
+- [x] Backend: Admin kann User-Status ändern (approve/reject)
+- [x] Backend: Activity-Log bei allen Schreiboperationen automatisch erstellen
+- [x] Backend: Activity-Log-Endpunkte für Admin-Dashboard
+- [x] Backend: Gantt-Daten-Endpunkte (Zeitplanung, Abhängigkeiten)
+- [x] Frontend: Login-Seite als Einstiegspunkt für nicht-authentifizierte Besucher
+- [x] Frontend: Warteschleife-Seite für pending User nach Login
+- [x] Frontend: Rejected-Seite für abgelehnte User
+- [x] Frontend: Admin-Freischaltung im Admin-Dashboard (approve/reject Buttons)
+- [x] Frontend: Aktivitätsprotokoll-Tab im Admin-Dashboard
+- [x] Frontend: Gantt-Timeline auf separater Seite mit Projektbalken und Abhängigkeiten
+- [x] Frontend: Gantt-Route in App.tsx und Navbar registrieren
+- [x] Tests für Zugangssteuerung, Activity-Log und Gantt-Endpunkte (30 Tests bestanden)
+- [x] Sektion 2: BD/DD-Button in zwei einzelne Buttons aufteilen (BD und DD separat)
+- [x] Gantt-Timeline: Drag-and-Drop-Funktion zum Erstellen von Projektabhängigkeiten
+- [x] Gantt-Timeline: Abhängigkeiten visuell als Verbindungslinien darstellen
+- [x] Gantt-Timeline: Abhängigkeiten per Drag-and-Drop bearbeiten und löschen
+- [x] Backend: Nachrichten-Schema (messages-Tabelle) in Datenbank erstellen
+- [x] Backend: API-Endpunkte für Nachrichtenversand an Benutzer
+- [x] Admin-Dashboard: Nachrichtenfunktion bei Ablehnung/Sperrung von Benutzern
+- [x] Admin-Dashboard: Allgemeine Nachrichtenfunktion an einzelne Benutzer
+- [x] Tests für alle neuen Features schreiben (39 Tests bestanden)
+- [ ] Timeline-Seite: Navigation/Verlinkung zu allen anderen Seiten herstellen
+- [ ] Sektion 2: Button-Reihenfolge anpassen auf Alle, Angebot, CD, BD, DD, läuft
+- [ ] Gantt-Timeline: PDF-Export der Projektabhängigkeiten implementieren
